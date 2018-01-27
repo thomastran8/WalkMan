@@ -740,6 +740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 591b2e55c595f8e4090c0ba574748272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  frequencyChannel: 3
 --- !u!1 &703232193
 GameObject:
   m_ObjectHideFlags: 0

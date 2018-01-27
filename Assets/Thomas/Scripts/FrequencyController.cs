@@ -4,6 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Robot_Movement))]
 public class FrequencyController : MonoBehaviour {
+    [Range(0.0f, 10.0f)]
     [SerializeField]
     private float currentFrequency;
     [SerializeField]
