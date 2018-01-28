@@ -5,19 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
     private int currentScene;
-    private static SceneLoader instance = null;
+    //private static SceneLoader instance = null;
 
     private void Awake()
     {
-        if (instance != null && instance != this)
-        {
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            instance = this;
-            DontDestroyOnLoad(transform.gameObject);
-        }
+        //if (instance != null && instance != this)
+        //{
+        //    Destroy(this.gameObject);
+        //}
+        //else
+        //{
+        //    instance = this;
+        //    DontDestroyOnLoad(transform.gameObject);
+        //}
     }
 
     // Use this for initialization

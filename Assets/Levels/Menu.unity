@@ -310,91 +310,53 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 272679064}
   m_Script: {fileID: 11500000, guid: cd68f4678b31109419c3e71c3e7443f0, type: 3}
---- !u!1 &921542679 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1937293697087054, guid: b0450c20f9e59c743814fafa6160dc1a,
-    type: 2}
-  m_PrefabInternal: {fileID: 272679064}
---- !u!82 &921542680
-AudioSource:
+--- !u!1001 &757902648
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 921542679}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bd9bee6bb2c0dda42873e7feb35d4ada, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4477287581567998, guid: 9cf383bc0fe595f4293d6f5dcadea943, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 253.75633
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477287581567998, guid: 9cf383bc0fe595f4293d6f5dcadea943, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 240.88286
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477287581567998, guid: 9cf383bc0fe595f4293d6f5dcadea943, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 10.557895
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477287581567998, guid: 9cf383bc0fe595f4293d6f5dcadea943, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477287581567998, guid: 9cf383bc0fe595f4293d6f5dcadea943, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477287581567998, guid: 9cf383bc0fe595f4293d6f5dcadea943, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477287581567998, guid: 9cf383bc0fe595f4293d6f5dcadea943, type: 2}
+      propertyPath: m_LocalRotation.w
       value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477287581567998, guid: 9cf383bc0fe595f4293d6f5dcadea943, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 82416400822472604, guid: 9cf383bc0fe595f4293d6f5dcadea943,
+        type: 2}
+      propertyPath: Loop
       value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9cf383bc0fe595f4293d6f5dcadea943, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1047573530
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,8 +593,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 277, y: -71.3}
-  m_SizeDelta: {x: 183.8, y: 162}
+  m_AnchoredPosition: {x: 277, y: -94.6}
+  m_SizeDelta: {x: 183.8, y: 199.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1310237268
 MonoBehaviour:
@@ -667,6 +629,9 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'A, D to move
+
+
+    Space to jump
 
 
     Left Arrow, Right Arrow to tune radio
@@ -886,7 +851,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 918, y: 404}
+  m_SizeDelta: {x: 760.26, y: 404}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1922030381
 MonoBehaviour:

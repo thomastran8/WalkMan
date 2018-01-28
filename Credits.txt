@@ -1,9 +1,9 @@
 Coders: Thomas Tran, Chris Mendoza
 Artist: Hala Alsaid
-Ideas: Michael Win 
+Music: Michael Win
+Ideas: Michael Win, Brandon Luong
 Support: Howard Tan
 
 Menu Background: https://unsplash.com/photos/Kj2SaNHG-hg
 Win Background: https://unsplash.com/photos/Q1p7bh3SHj8
 Font: https://www.dafont.com/blade-runner.font
-Music: Komiku - http://freemusicarchive.org/music/Komiku/Poupis_incredible_adventures_/Komiku_-_Poupis_incredible_adventures__-_67_The_Moment_of_Truth
