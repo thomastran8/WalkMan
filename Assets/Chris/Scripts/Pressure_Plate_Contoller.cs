@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pressure_Plate_Contoller : MonoBehaviour {
 
-	//game object it affects
+	//game object(s) it affects
 	public GameObject gate;
 	private Gate_Controller gController;
 
@@ -21,8 +21,15 @@ public class Pressure_Plate_Contoller : MonoBehaviour {
 	//only a robot for now will step on a pressure plate
 	void OnCollisionEnter2D(Collision2D robot) {
 		
-		//move the gate up while there's something on the plate
-		gController.Move();
+		//gate is activated by the pressure plate
+		gController.isActive = true;
+	}
+
+	//a robot stepped off the plate
+	void OnCollisionExit2D(Collision2D robot) {
+
+		//robot stepped off, stop moving gate
+		gController.isActive = false;
 	}
 
 

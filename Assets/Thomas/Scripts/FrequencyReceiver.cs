@@ -11,6 +11,7 @@ public class FrequencyReceiver : MonoBehaviour {
     [Range(0.0f, 10.0f)]
     [SerializeField]
     private float frequencyChannel;
+    [SerializeField]
     private bool randomizeStartingFreq;
 
     private GameObject playerGO;
@@ -23,6 +24,11 @@ public class FrequencyReceiver : MonoBehaviour {
     void Start () {
         playerGO = GameObject.FindWithTag("Player");
         fc = playerGO.GetComponent<FrequencyController>();
+        if (randomizeStartingFreq)
+        {
+            frequencyChannel = (int) Random.Range(1,10.99f);
+            Debug.Log(frequencyChannel);
+        }
     }
 	
 	// Update is called once per frame
