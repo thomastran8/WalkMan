@@ -1,5 +1,7 @@
 Coders: Thomas Tran, Chris Mendoza
 Artist: Hala Alsaid
+Ideas: Michael Win 
+Support: Howard Tan
 
 Menu Background: https://unsplash.com/photos/Kj2SaNHG-hg
 Win Background: https://unsplash.com/photos/Q1p7bh3SHj8
