@@ -122,7 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerStartFrequency: 5
   tuningSpeed: 0.1
-  dialTurn: 5
+  dialTurn: 4
 --- !u!114 &114802444587329954
 MonoBehaviour:
   m_ObjectHideFlags: 1

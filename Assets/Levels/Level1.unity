@@ -4345,11 +4345,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114677808061870060, guid: 7adfb830db80c0045a56675c04082580,
-        type: 2}
-      propertyPath: dialTurn
-      value: 4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7adfb830db80c0045a56675c04082580, type: 2}
   m_IsPrefabParent: 0
@@ -4941,16 +4936,6 @@ Prefab:
         type: 2}
       propertyPath: m_AnchorMax.y
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766576737642310, guid: a9167f7b83da37d4c912f1ff6d83ba4d,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -150.0001
-      objectReference: {fileID: 0}
-    - target: {fileID: 224766576737642310, guid: a9167f7b83da37d4c912f1ff6d83ba4d,
-        type: 2}
-      propertyPath: m_Pivot.y
-      value: 0.46
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9167f7b83da37d4c912f1ff6d83ba4d, type: 2}
