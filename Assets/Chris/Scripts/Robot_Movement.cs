@@ -22,6 +22,10 @@ public class Robot_Movement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+
+        }
 	}
 
 	void FixedUpdate() {
