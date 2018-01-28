@@ -23,9 +23,12 @@ GameObject:
   - component: {fileID: 95380143942803402}
   - component: {fileID: 50791590953688036}
   - component: {fileID: 61851910710014788}
+  - component: {fileID: 114240657156278952}
+  - component: {fileID: 114802444587329954}
+  - component: {fileID: 114677808061870060}
   m_Layer: 0
   m_Name: Player robot
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,6 +108,42 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114240657156278952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483302696932238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2bc6b79ae479764abc46701c4eae160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114677808061870060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483302696932238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56355ae778f4e5441b20b562f81a51a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStartFrequency: 0
+  tuningSpeed: 0.1
+--- !u!114 &114802444587329954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483302696932238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53632afcdb2476941b524086ba2fb4ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 10
 --- !u!212 &212752871709920064
 SpriteRenderer:
   m_ObjectHideFlags: 1

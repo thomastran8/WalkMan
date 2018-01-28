@@ -8,7 +8,7 @@ public class FrequencyReceiver : MonoBehaviour {
 
     private float playerRefSpeed = 0;
     private FrequencyController fc;
-    [Range(0.0f, 10.0f)]
+    [Range(1.0f, 10.0f)]
     [SerializeField]
     private float frequencyChannel;
     [SerializeField]

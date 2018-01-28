@@ -6,7 +6,7 @@ using System;
 
 //[RequireComponent(typeof())]
 public class FrequencyController : MonoBehaviour {
-    [Range(0.0f, 10.0f)]
+    [Range(1.0f, 10.0f)]
     [SerializeField]
     private float playerStartFrequency;  // The frequency the player starts with
     private float currentFrequency; // The frequency the player changes during gameplay
