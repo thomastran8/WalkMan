@@ -8,6 +8,7 @@ TagManager:
   - SceneLoader
   - Key
   - Inmate
+  - Ground
   layers:
   - Default
   - TransparentFX

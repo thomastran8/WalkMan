@@ -27,7 +27,7 @@ public class Jump_Ability : MonoBehaviour {
 			//they are jumping off another robot, or the ground
 			if(obj.gameObject.tag == "Inmate" || obj.gameObject.tag == "Ground") {
 		 
-				rb.AddForce (new Vector2 (0, 5), ForceMode2D.Impulse);
+				rb.AddForce (new Vector2 (0, 2), ForceMode2D.Impulse);
 			}
 		}
 	}
