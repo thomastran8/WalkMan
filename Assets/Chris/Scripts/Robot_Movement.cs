@@ -7,7 +7,6 @@ public class Robot_Movement : MonoBehaviour {
 	Rigidbody2D rb; //to move the robot(s)
     [SerializeField]
 	private float maxSpeed;
-    private SceneLoader sceneLoad;
 
 	//public float playerFrequency; //the frequency the player can change
 	//public float robotFrequency; //this robot's frequency
@@ -19,15 +18,11 @@ public class Robot_Movement : MonoBehaviour {
 		
 		rb = GetComponent<Rigidbody2D> ();
         freqReceive = gameObject.GetComponent<FrequencyReceiver>();
-        sceneLoad = GameObject.FindGameObjectWithTag("SceneLoader").GetComponent<SceneLoader>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            sceneLoad.resetGame();
-        }
+
 	}
 
 	void FixedUpdate() {

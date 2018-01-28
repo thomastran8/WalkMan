@@ -26,8 +26,15 @@ public class SceneLoader : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            resetGame();
+        }
+        else if (Input.GetButtonDown("Cancel"))
+        {
+            loadMenu();
+        }
+    }
 
     public void loadNextScene()
     {
@@ -42,5 +49,10 @@ public class SceneLoader : MonoBehaviour {
     public void resetGame()
     {
         SceneManager.LoadScene(currentScene);
+    }
+    
+    public void loadMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
