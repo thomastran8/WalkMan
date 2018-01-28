@@ -5,9 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
     private int currentScene;
+    private static SceneLoader instance = null;
 
-	// Use this for initialization
-	void Start () {
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
+
+    // Use this for initialization
+    void Start () {
         currentScene = SceneManager.GetActiveScene().buildIndex;
     }
 	
