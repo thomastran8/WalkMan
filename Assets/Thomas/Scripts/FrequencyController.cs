@@ -14,6 +14,9 @@ public class FrequencyController : MonoBehaviour {
     private float tuningSpeed;
     private Slider frequencySlider;
     private Text freqNum;
+    private RectTransform dial;
+    [SerializeField]
+    private int dialTurn;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +26,7 @@ public class FrequencyController : MonoBehaviour {
         currentFrequency = playerStartFrequency;
         frequencySlider.value = playerStartFrequency;
         freqNum = playerUI.transform.Find("FreqNum").GetComponent<Text>();
+        dial = playerUI.transform.Find("Dial").GetComponent<RectTransform>();
         displayFreq();
     }
 	
@@ -43,9 +47,12 @@ public class FrequencyController : MonoBehaviour {
         currentFrequency = Mathf.Clamp(currentFrequency, 1, 10);
         frequencySlider.value = currentFrequency;
         //Debug.Log(currentFrequency);
-        if (startingFrequency == currentFrequency)
+        if (startingFrequency != currentFrequency)
         {
-            //Debug.Log("No Change");
+            if (dir < 0)
+                dial.Rotate(new Vector3(0, 0, 1) * dialTurn);
+            else
+                dial.Rotate(new Vector3(0, 0, -1) * dialTurn);
         }
     }
 
