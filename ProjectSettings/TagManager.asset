@@ -45,3 +45,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2829308117
+    locked: 0
+  - name: Foreground
+    uniqueID: 3864814333
+    locked: 0
+  - name: Effects
+    uniqueID: 2769356617
+    locked: 0
