@@ -5,7 +5,7 @@ using UnityEngine;
 public class Gate_Controller : MonoBehaviour {
 
 	//example of vertical gate
-	private Vector2 forward = new Vector2(0, .01f);
+	public Vector2 forward = new Vector2(0, .01f);
 
 	private float end; //stop at the length of the gate
 	private float start;
